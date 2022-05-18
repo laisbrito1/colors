@@ -1,0 +1,71 @@
+body{
+    margin: 0;}
+
+h1{
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+   
+}
+.botoes{
+    width: 100%;
+    display: flex; 
+    align-content: center;
+ 
+    margin-left: 40%;
+    
+  
+}
+#quadrado{
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 47%;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    
+
+    justify-content: center;
+    align-items: center;
+
+}
+#btn1{
+    border-radius: 50%;
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+    margin-right: 25px;
+}
+#btn2{
+    margin-right: 25px;
+    border-radius: 50%;
+    background-color: rgb(231, 107, 247);
+   
+    width: 40px;
+    height: 40px;
+}
+#btn3{
+    margin-right: 25px;
+    border-radius: 50%;
+    background-color: slateblue;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+#btn4{
+    margin-right: 25px;
+    border-radius: 50%;
+    background-color:brown;
+   
+    width: 40px;
+    height: 40px;
+}
+#btn5{
+    margin-right: 25px;
+    border-radius: 50%;
+    background-color:darkgoldenrod;
+   
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Troque a cor do quadrado!</h1>
+    <div class="botoes">
+        <div id="btn1" onClick="botao1()"></div>
+        <div id="btn2" onClick="botao2()"></div>
+        <div id="btn3" onClick="botao3()"></div>
+        <div  id="btn4" onClick="botao4()"></div>
+        <div  id="btn5" onClick="botao5()"></div>
+    </div>
+    <div id="quadrado">
+
+    </div>
+<script>
+    function botao1(){
+        document.getElementById('quadrado').style.backgroundColor="aqua"
+    }
+    function botao2(){
+        document.getElementById('quadrado').style.backgroundColor="rgb(231, 107, 247)"
+    }
+    function botao3(){
+        document.getElementById('quadrado').style.backgroundColor="slateblue"
+    }
+    function botao4(){
+        document.getElementById('quadrado').style.backgroundColor="brown"
+    }
+    function botao5(){
+        document.getElementById('quadrado').style.backgroundColor="darkgoldenrod"
+    }
+</script>
+    
+</body>
+</html>
